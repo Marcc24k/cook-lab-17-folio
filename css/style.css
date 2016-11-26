@@ -1,0 +1,362 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.6;
+    color: #3a3a3a;
+}
+
+p {
+    font-size: .95em;
+    margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+    color: #093a58;
+}
+
+h2,
+h3,
+h4 {
+    margin-top: 0;
+}
+
+h4 {
+    margin-bottom: .4em;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+    line-height: 0;
+    position: relative;
+    height: 225px;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: .9em;
+    line-height: 1.5;
+    color: #fff;
+    padding: 1em;
+    background: rgba(19, 43, 102, .85);
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+
+/* ---- Navigation ---- */
+
+.name {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.main-nav {
+    margin-top: 5px;
+}
+
+.name a,
+.main-nav a {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    top: 0px;
+}
+
+.main-nav a {
+    font-size: .95em;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.main-nav a:hover {
+    color: #093a58;
+}
+
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+     
+    
+}
+/*
+
+.css-typing{
+    position: relative;
+    width: 50%;
+    min-height: 100px;
+    color:green;
+     font-family: 'Press Start 2P', cursive;
+    border:2px solid red;
+    white-space:nowrap;
+    overflow:hidden;
+    word-wrap:break-word;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 20s steps(90, end);
+}
+.description{
+    position: relative;
+    width: 50%;
+    min-height: 100px;
+    color:green;
+     font-family: 'Press Start 2P', cursive;
+    border:2px solid red;
+    white-space:nowrap;
+    overflow:hidden;
+    word-wrap:break-word;
+     
+    -webkit-animation-delay: type 5s steps(50, end);
+    animation-delay: type 20s steps(90, end);
+}
+@keyframes type{
+    from { width: 0; }
+     
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+     
+}
+*/
+
+ 
+
+.banner,
+.main-footer {
+    text-align: center;
+}
+
+.banner {
+    color: #fff;
+    background: #000000;
+    padding: 3.2em 0;
+    margin-bottom: 60px;
+    opacity: .9;
+/*    min-height: 900px;*/
+}
+
+.headline {
+    color: whitesmoke;
+}
+
+.col {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.main-footer {
+    background: #000000;
+    padding: 2em 0;
+    margin-top: 30px;
+}
+
+
+/* ----SPINNER STYLE ---- */
+
+#spinner {
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    left: 44%;
+    -webkit-animation-duration: 6.5s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate;
+    /* Chrome, Safari, Opera */
+    animation-duration: 6.5s;
+    animation-direction: alternate;
+}
+
+.box-1 .w3-spin {
+    position: relative;
+    border: 2px solid transparent;
+    border-left-color: #b3c184;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    -webkit-animation-duration: 5.5s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate;
+    /* Chrome, Safari, Opera */
+    animation-duration: 5.5s;
+    animation-direction: alternate;
+}
+
+.box-2 .w3-spin {
+    position: relative;
+    border: 2px solid transparent;
+    border-left-color: #6011cc;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    bottom: 85px;
+    left: 5px;
+    -webkit-animation-duration: 4.5s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate;
+    /* Chrome, Safari, Opera */
+    animation-duration: 4.5s;
+    animation-direction: alternate;
+}
+
+.box-3 .w3-spin {
+    position: relative;
+    border: 2px solid transparent;
+    border-left-color: #38aa38;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    bottom: 160px;
+    left: 10px;
+    -webkit-animation-duration: 3.5s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate;
+    /* Chrome, Safari, Opera */
+    animation-duration: 3.5s;
+    animation-direction: alternate;
+}
+
+.box-4 .w3-spin {
+    position: relative;
+    border: 2px solid transparent;
+    border-left-color: #2626ed;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    bottom: 226px;
+    left: 16px;
+    -webkit-animation-duration: 2.5s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate;
+    /* Chrome, Safari, Opera */
+    animation-duration: 2.5s;
+    animation-direction: alternate;
+}
+
+.box-5 .w3-spin {
+    position: relative;
+    border: 2px solid transparent;
+    border-left-color: #e8ad40;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    bottom: 282px;
+    left: 22px;
+    -webkit-animation-duration: 1.5s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate;
+    /* Chrome, Safari, Opera */
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+}
+
+.box-6 .w3-spin {
+    position: relative;
+    border: 2px solid transparent;
+    border-left-color: #ea5b25;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    bottom: 327px;
+    left: 27px;
+    -webkit-animation-duration: 6.5s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate;
+    /* Chrome, Safari, Opera */
+    animation-duration: 6.5s;
+    animation-direction: alternate;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+    body {
+        padding-top: 68px;
+    }
+    .main-header {
+        position: fixed;
+        background: #956100;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+        width: 100%;
+        top: 0;
+        
+        z-index: 1000;
+    }
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .name,
+    .col {
+        float: left;
+    }
+    .primary,
+    .secondary {
+        width: 50%;
+    }
+    .main-nav {
+        float: right;
+    }
+    .main-nav li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .tagline {
+        font-size: 1.4em;
+    }
+    #spinner {
+        left: 44%
+    }
+    /* ---- Float clearfix ---- */
+    .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+}
+
+@media (min-width: 1025px) {
+    .container {
+        width: 80%;
+        max-width: 1150px;
+    }
+    .primary {
+        width: 40%;
+    }
+    .secondary,
+    .tertiary {
+        width: 30%;
+    }
+    #spinner {
+        position: relative;
+        left: 46%;
+    }
+}

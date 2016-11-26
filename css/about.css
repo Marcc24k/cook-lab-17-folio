@@ -1,0 +1,309 @@
+/*GLOBAL STLYE*/
+ 
+ h1 {
+     position: fixed;
+     padding: 10px;
+     font-size: 5em;
+     color: darkred;
+     font-family: Passion one, sans-serif;
+     left: 80px;
+     text-align: center;
+     z-index: 11;
+     opacity: .5
+ }
+ 
+ h3 {
+     font-size: 1.4em;
+     font-family: Amaranth, sans-serif;
+ }
+ 
+ ol {
+     position: relative;
+     font-size: 1.2em;
+     font-family: Amaranth, monospace;
+     width: 50%;
+     left: 22.8%;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ /* GLOBAL END*/
+ /*BODY STYLE */
+ 
+ body {
+     background-color: slategrey;
+ }
+ /*HEADER STYLE*/
+ 
+ header {
+     position: relative;
+     width: 100%;
+     height: 256px;
+     color: whitesmoke;
+ }
+ /*NAVIGATION STYLE*/
+ 
+ .nav-container {
+     position: fixed;
+     color: white;
+     left: 23%;
+     top: 100px;
+     font-size: 1.8em;
+     width: 350px;
+     height: auto;
+     display: flex;
+     letter-spacing: 1.0px;
+     z-index: 11;
+     text-decoration: none;
+     /*TEXT-DECORATION : NONE;  NOT WORKING. BUT LINE-THOUGH DOES! WHY?*/
+ }
+ /*ITEMS CLASS STYLE*/
+ 
+ .item-1 {
+     position: relative;
+     text-align: center;
+     border: 2px solid transparent;
+     border-bottom-color: lightcoral;
+     width: 94px;
+     height: 30px;
+     margin: 5px;
+     padding: 5px;
+ }
+ 
+ .item-2 {
+     position: relative;
+     text-align: center;
+     border: 2px solid transparent;
+     border-bottom-color: purple;
+     width: 94px;
+     height: 30px;
+     margin: 5px;
+     padding: 5px;
+ }
+ 
+ .item-3 {
+     position: relative;
+     text-align: center;
+     border: 2px solid transparent;
+     border-bottom-color: lightgreen;
+     width: 112px;
+     height: 30px;
+     margin: 5px;
+     padding: 5px;
+ }
+ /*NAV LINK STYLE*/
+ 
+ a {
+     color: darkslategrey;
+     opacity: .8
+ }
+ /* SECTION STYLE*/
+ 
+ section {
+     position: absolute;
+     width: 50%;
+     height: 400px;
+     padding: 5px;
+     left: 24%;
+ }
+ 
+ section p {
+     font-size: 1.5em;
+     line-height: 42px;
+     padding: 15px;
+ }
+ /*WORK BUTTON*/
+ 
+ button {
+     position: relative;
+     left: 39%;
+     background-color: #326407;
+     border-radius: 5px;
+     /*    ANIMATION PROPERTIES*/
+     -webkit-animation-name: bounce;
+     /* Safari 4.0 - 8.0 */
+     -webkit-animation-duration: 1s;
+     /* Safari 4.0 - 8.0 */
+     animation-name: bounce;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate-reverse;
+ }
+ /* Safari 4.0 - 8.0 */
+ 
+ @-webkit-keyframes bounce {
+     0% {
+         top: 1px
+     }
+     25% {
+         top: 2px
+     }
+     50% {
+         top: 3px
+     }
+     100% {
+         top: 5px
+     }
+ }
+ /* Standard syntax */
+ 
+ @keyframes bounce {
+     0% {
+         top: 1px
+     }
+     25% {
+         top: 2px
+     }
+     50% {
+         top: 3px
+     }
+     100% {
+         top: 5px
+     }
+ }
+ 
+ button:hover {
+     border-radius: 7px;
+     background-color: #1c4c13;
+ }
+ 
+ button a {
+     color: whitesmoke;
+     font-family: amaranth, sans-serif;
+ }
+ /*BIG FOOTER STYLE*/
+ 
+ .big-footer {
+     position: relative;
+     top: 670px;
+     text-align: center;
+     width: 98.8%;
+     padding: 10px;
+     border-radius: 5px;
+     background-color: #0f0303;
+     color: whitesmoke;
+     opacity: .8;
+ }
+ /*BIGG FOOTER H3 STYLE*/
+ 
+ .big-footer h3 {
+     position: relative;
+     color: whitesmoke;
+     border: 2px solid transparent;
+     border-bottom-color: purple;
+     width: 230px;
+     padding: 5px;
+     left: 40%;
+ }
+ 
+ ol {
+     position: relative;
+     width: 250px;
+     height: 30px;
+     text-align: center;
+     left: 39%;
+ }
+ 
+ h4 {
+     position: relative;
+     width: 200px;
+     height: 20px;
+     padding: 5px;
+     left:-9%;
+ }
+ /*COPYRIGHT STYLE*/
+ 
+ i {
+     position: relative;
+     left: 41.5%;
+     top: 500px;
+     padding: 10px;
+     color: navajowhite;
+ }
+ 
+ hr {
+     position: fixed;
+     top: 160px;
+     left: 470px;
+     width: 50%;
+ }
+.copy{
+    position: relative;
+    top:0px;
+    left: 10%;
+}
+ /*
+ ================================= 
+  Media Queries
+==================================== 
+*/
+ 
+ @media (min-width: 769px) {
+     .nav-container {
+         position: fixed;
+         left: 30%;
+     }
+     section {
+         position: absolute;
+         width: 80%;
+         height: 400px;
+         padding: 5px;
+         left: 10%;
+     }
+     section p {
+         font-size: 1.5em;
+         line-height: 42px;
+         padding: 15px;
+     }
+     .big-footer {
+         position: relative;
+         width: 98%;
+         
+     }
+     .big-footer h3 {
+         position: relative;
+         left: 35%;
+     }
+     .big-footer h4 {
+         position: relative;
+         left: -20%;
+     }
+     .copy {
+         position: relative;
+         top: 0px;
+         left: -10px;
+     }
+ }
+ 
+ @media (min-width: 1025px) {
+     .nav-container {
+         position: relative;
+         left: 70%;
+     }
+       section {
+         position: absolute;
+         width: 50%;
+         height: 400px;
+         padding: 5px;
+         left: 25%;
+     }
+     .big-footer {
+         position: relative;
+         width: 99%;
+         top:534px;
+     }
+     .big-footer h3 {
+         position: relative;
+         left: 41%;
+     }
+     .big-footer h4 {
+         position: relative;
+         left: 4%;
+     }
+     .copy {
+         position: relative;
+         top: 0px;
+         left: -2.7%;
+     }
+ }

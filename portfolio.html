@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="css/portfolio.css">
+
+
+    <!--FONTS-->
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
+
+
+    <title>Marc Cook | Developer</title>
+</head>
+
+
+
+<body ng-app="folioApp">
+
+
+    <header>
+        <!--NAVIGATION LINKS-->
+        <div class="nav-container">
+            <div class="item-1 item"> <a href="index.html">Home</a></div>
+            <div class="item-2 item"><a href="resume.html">Resume</a></div>
+            <div class="item-3 item"><a href="portfolio.html">Portfolio</a></div>
+        </div>
+
+        <p> Portfolio</p>
+    </header>
+
+    <!--    SECTION INFO AND CONTROLLER-->
+    <section ng-controller="infoSectionCtrl">
+
+        <spd-section-info ng-repeat="section in sectionInfo">
+
+
+<!-- 
+
+            <div class="img">
+                <a target="_blank" href="fjords.jpg">
+                    <img src="img/bern_during_autum_aare_river.jpg" alt="Fjords" width="300" height="200">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+
+            </div>
+
+            <div class="img">
+                <a target="_blank" href="forest.jpg">
+                    <img src="img/swiss-cable-car.jpg" alt="Forest" width="300" height="200">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+
+            <div class="img">
+                <a target="_blank" href="lights.jpg">
+                    <img src="img/swiss-castle.jpg" alt="Northern Lights" width="300" height="200">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+
+            <div class="img">
+                <a target="_blank" href="mountains.jpg">
+                    <img src="img/swiss-cottage.jpg" alt="Mountains" width="300" height="200">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+            <div class="img">
+                <a target="_blank" href="fjords.jpg">
+                    <img src="img/bern_during_autum_aare_river.jpg" alt="Fjords" width="300" height="200">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+
+            <div class="img">
+                <a target="_blank" href="forest.jpg">
+                    <img src="img/swiss-cable-car.jpg" alt="Forest" width="300" height="200">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+
+            <div class="img">
+                <a target="_blank" href="lights.jpg">
+                    <img src="img/swiss-castle.jpg" alt="Northern Lights" width="300" height="200">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+
+            <div class="img">
+                <a target="_blank" href="mountains.jpg">
+                    <img src="img/swiss-cottage.jpg" alt="Mountains" width="300" height="200">
+                </a>
+                <div class="desc">{{description}}</div>
+            </div>
+-->
+
+
+
+        </spd-section-info>
+    </section>
+
+
+    <div class="clear"></div>
+    
+    <footer class="big-footer">
+        <ul>
+            <h3>CONTACT</h3>
+            <h4 class="email">marcc24k@gmail.com</h4>
+            <!--        COPYRIGHT  -->
+            <i class="fa fa-copyright copy"> &copy; Marc Cook Designs 2016</i>
+        </ul>
+    </footer>
+
+
+
+
+
+</body>
+<!--SCRIPT-->
+ 
+
+<script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-masonry.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>-->
+
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>
