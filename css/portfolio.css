@@ -1,378 +1,391 @@
-                /*GLOBAL STYLE*/
-            
-            body {
-                background-color: darkslategray;
-            }
-            
-            h3 {
-                color: darkred;
-                width: 100px
-            }
-            /*HEADER*/
-            
-            header {
-                position: relative;
-                border: 2px solid transparent;
-                border-bottom-color: a#2e7c46;
-                top: 40px;
-                left: 25%;
-                width: 200px;
-                height: 100px;
-            }
-            /*header paragraph*/
-            
-            header p {
-                position: relative;
-                text-align: center;
-                font-size: 2.5em;
-                font-family: Amaranth, sans-serif;
-                color: #be3a09;
-            }
-            /*NAVIGATION STYLE*/
-            
-            .nav-container {
-                position: fixed;
-                color: white;
-                left: 11%;
-                top: 4px;
-                font-size: 1em;
-                width: 350px;
-                height: auto;
-                display: flex;
-                letter-spacing: 1.0px;
-                z-index: 11;
-            }
-            /*ITEMS CLASS STYLE*/
-            
-            .item-1 {
-                position: relative;
-                text-align: center;
-                border: 2px solid transparent;
-                border-bottom-color: lightcoral;
-                width: 94px;
-                height: 30px;
-                margin: 5px;
-                padding: 5px;
-            }
-            
-            .item-2 {
-                position: relative;
-                text-align: center;
-                border: 2px solid transparent;
-                border-bottom-color: purple;
-                width: 94px;
-                height: 30px;
-                margin: 5px;
-                padding: 5px;
-            }
-            
-            .item-3 {
-                position: relative;
-                text-align: center;
-                border: 2px solid transparent;
-                border-bottom-color: lightgreen;
-                width: 112px;
-                height: 30px;
-                margin: 5px;
-                padding: 5px;
-            }
-            /*NAV LINK STYLE*/
-            
-            a {
-                color: lightblue;
-                opacity: .8;
-                text-decoration: none;
-            }
-            /*MAIN SECTION*/
-            
-            section {
-                position: relative;
-                border-radius: 10px;
-                color: whitesmoke;
-                width: 302px;
-                height: auto;
-                top: 24px;
-                left: 8%;
-                padding: 15px;
-                opacity: .6;
-            }
-            
-            ul {
-                width: 1049px;
-                height: auto;
-                flex-wrap: wrap;
-                display: inline-block;
-            }
-            
-            li {
-                position: relative;
-                left: -10%;
-                width: 35%;
-                border-radius: 5px;
-                list-style: none;
-            }
-            
-            li h1 {
-                font-size: 1em;
-                font-family: Amaranth, fantasy;
-                color: #a8b1d4;
-                text-align: center;
-            }
-            
-            figcaption {
-                text-align: center;
-            }
-            
-            .desc {
-                position: relative;
-                text-align: center;
-            }
-            /*BIG FOOTER STYLE*/
-            
-            .big-footer {
-                position: relative;
-                top: 48px;
-                text-align: center;
-                width: 95%;
-                padding: 10px;
-                border-radius: 5px;
-                background-color: #0f0303;
-                color: whitesmoke;
-                opacity: .8;
-            }
-            /*BIGG FOOTER H3 STYLE*/
-            
-            .big-footer h3 {
-                position: relative;
-                color: whitesmoke;
-                border: 2px solid transparent;
-                border-bottom-color: purple;
-                width: 230px;
-                padding: 5px;
-                left: 4%;
-                bottom: 30px;
-            }
-            
-            ul {
-                width: 359px;
-                height: auto;
-                flex-wrap: wrap;
-                display: inline-block;
-            }
-            
-            .email {
-                position: relative;
-                width: 200px;
-                height: 20px;
-                padding: 5px;
-                left: 9%;
-                bottom: 20px;
-            }
-            /*COPYRIGHT*/
-            
-            .copy {
-                position: relative;
-                color: orangered;
-                left: -40px;
-                font-size: 1.2em;
-            }
-            /*
+/*GLOBAL STYLE*/
+
+body {
+background-color: #213350;
+}
+
+h3 {
+color: darkred;
+width: 100px
+}
+/*HEADER*/
+
+header {
+position: relative;
+border: 2px solid transparent;
+border-bottom-color: a#2e7c46;
+top: 40px;
+left: 25%;
+width: 200px;
+height: 100px;
+}
+/*header paragraph*/
+
+header p {
+position: relative;
+text-align: center;
+font-size: 2.5em;
+font-family: Amaranth, sans-serif;
+color: #be3a09;
+}
+/*NAVIGATION STYLE*/
+
+.nav-container {
+position: fixed;
+color: white;
+left: 11%;
+top: 4px;
+font-size: 1em;
+width: 350px;
+height: auto;
+display: flex;
+letter-spacing: 1.0px;
+z-index: 11;
+}
+/*ITEMS CLASS STYLE*/
+
+.item-1 {
+position: relative;
+text-align: center;
+border: 2px solid transparent;
+border-bottom-color: lightcoral;
+width: 94px;
+height: 30px;
+margin: 5px;
+padding: 5px;
+}
+
+.item-2 {
+position: relative;
+text-align: center;
+border: 2px solid transparent;
+border-bottom-color: purple;
+width: 94px;
+height: 30px;
+margin: 5px;
+padding: 5px;
+}
+
+.item-3 {
+position: relative;
+text-align: center;
+border: 2px solid transparent;
+border-bottom-color: lightgreen;
+width: 112px;
+height: 30px;
+margin: 5px;
+padding: 5px;
+}
+/*NAV LINK STYLE*/
+
+a {
+color: lightblue;
+opacity: .8;
+text-decoration: none;
+}
+/*MAIN SECTION*/
+
+section {
+position: relative;
+border-radius: 10px;
+color: whitesmoke;
+width: 302px;
+height: auto;
+top: 24px;
+left: 8%;
+padding: 15px;
+opacity: .6;
+}
+
+ul {
+width: 1049px;
+height: auto;
+flex-wrap: wrap;
+display: inline-block;
+}
+
+li {
+position: relative;
+left: -10%;
+width: 35%;
+border-radius: 5px;
+list-style: none;
+}
+
+li h1 {
+font-size: 1em;
+font-family: Amaranth, fantasy;
+color: #a8b1d4;
+text-align: center;
+}
+
+figcaption {
+text-align: center;
+}
+
+.desc {
+position: relative;
+text-align: center;
+}
+/*BIG FOOTER STYLE*/
+
+.big-footer {
+position: relative;
+top: 48px;
+text-align: center;
+width: 95%;
+padding: 10px;
+border-radius: 5px;
+background-color: #0f0303;
+color: whitesmoke;
+opacity: .8;
+}
+/*BIGG FOOTER H3 STYLE*/
+
+.big-footer h3 {
+position: relative;
+color: whitesmoke;
+border: 2px solid transparent;
+border-bottom-color: purple;
+width: 230px;
+padding: 5px;
+left: 4%;
+bottom: 30px;
+}
+
+ul {
+width: 359px;
+height: auto;
+flex-wrap: wrap;
+display: inline-block;
+}
+
+.email {
+position: relative;
+width: 200px;
+height: 20px;
+padding: 5px;
+left: 9%;
+bottom: 20px;
+}
+/*COPYRIGHT*/
+
+.copy {
+position: relative;
+color: orangered;
+left: -40px;
+font-size: 1.2em;
+}
+/*
 ================================= 
 Media Queries
 ==================================== 
 */
-            
-            @media (min-width: 769px) {
-                .nav-container {
-                    position: fixed;
-                    background-color: darkslategray;
-                    left: 72%;
-                    width: 230px;
-                    font-size: 1em;
-                }
-                .item-1 {
-                    width: 20%;
-                }
-                .item-2 {
-                    width: 25%;
-                }
-                .item-3 {
-                    width: 26%;
-                }
-                header {
-                    position: relative;
-                    left: 40%;
-                    width: 230px
-                }
-                section {
-                    position: relative;
-                    width: 90%;
-                    left: 33px;
-                    height: auto;
-                    display: flex;
-                    flex-wrap: wrap;
-                }
-                #main-section-container {
-                    position: relative;
-                    max-width: 70%;
-                    left: 15%;
-                }
-                ul {
-                    position: relative;
-                    left: 4%;
-                }
-                li {
-                    display: ;
-                    height: auto;
-                    width: 50%;
-                    padding: 0px;
-                }
-                img {
-                    position: relative;
-                    width: 300px;
-                    height: 200px;
-                    padding: 21px;
-                    left: 20%;
-                }
-                .email {
-                    position: relative;
-                    left: 24%;
-                }
-                .big-footer {
-                    position: relative;
-                    width: 98%
-                }
-                .big-footer h3 {
-                    position: relative;
-                    width: 98%;
-                    left: 0%;
-                }
-                .big-footer {
-                    position: relative;
-                    width: 98%;
-                }
-                .copy {
-                    position: relative;
-                    color: orangered;
-                    left: -2px;
-                    top: -20px;
-                    font-size: 1.2em;
-                }
-            }
-            
-            @media (min-width: 1025px) {
-                .nav-container {
-                    background-color: darkslategray;
-                    position: fixed;
-                    color: white;
-                    left: 70%;
-                    top: 41px;
-                    font-size: 1.8em;
-                    width: 500px;
-                    height: auto;
-                    display: flex;
-                    letter-spacing: 1.0px;
-                    z-index: 11;
-                }
-                a {
-                    color: lightblue;
-                    opacity: .8;
-                    text-decoration: none;
-                }
-                .item-3 {
-                    width: 25%;
-                }
-                header {
-                    position: relative;
-                    left: 20%;
-                    width: 1005px
-                }
-                #main-section-container {
-                    position: relative;
-                    left: 28%;
-                    max-width: 100%;
-                    width: 40%;
-                    /*        display: flex;*/
-                }
-                ul {
-                    position: relative;
-                    display: inline-flex;
-                    flex-wrap: wrap;
-                    -webkit-flex-direction: row;
-                    flex-direction: row;
-                    width: 30%;
-                    bottom: 26px;
-                    left: 0%;
-                    height: auto;
-                }
-                li {
-                    position: relative;
-                    display: block;
-                }
-                section {
-                    position: relative;
-                    top: 40px;
-                    left: 10%;
-                    width: 80%;
-                }
-                img {
-                    position: relative;
-                    width: 300px;
-                    height: auto;
-                    bottom: 25px;
-                    left: 0px;
-                    text-align: center;
-                    border-radius: 5px;
-                }
-                h2 {
-                    position: relative;
-                    text-align: center;
-                    color: goldenrod;
-                    border: 2px solid black;
-                    border-top-color: transparent;
-                    border-right-color: transparent;
-                    border-left-color: transparent;
-                    border-bottom-color: orangered;
-                    border-radius: 5px;
-                    padding: 5px;
-                    left: 18%;
-                    width: 150px;
-                }
-                div.img {
-                    position: relative;
-                    margin: 5px;
-                    border: 1px solid transparent;
-                    float: left;
-                    height: 260px;
-                    width: 30%;
-                    left: 5%
-                }
-                div.img:hover {
-                    border: 1px solid #777;
-                }
-                div.desc {
-                    padding: 15px;
-                    text-align: center;
-                }
-                .big-footer {
-                    position: fixed;
-                    top: 814px;
-                    width: 98%;
-                    height: 140px;
-                }
-                .big-footer h3 {
-                    position: relative;
-                    width: 98%;
-                    left: 0%;
-                    top: 0px;
-                }
-                ul .email {
-                    position: relative;
-                    left: 31%;
-                    bottom: 19px;
-                }
-                .copy {
-                    position: relative;
-                    left: -7%;
-                    top: 51px;
-                }
+
+@media (min-width: 769px) {
+.nav-container {
+    position: fixed;
+    background-color: darkslategray;
+    left: 72%;
+    width: 230px;
+    font-size: 1em;
+}
+.item-1 {
+    width: 20%;
+}
+.item-2 {
+    width: 25%;
+}
+.item-3 {
+    width: 26%;
+}
+header {
+    position: relative;
+    left: 40%;
+    width: 230px
+}
+section {
+    position: relative;
+    width: 90%;
+    left: 33px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#main-section-container {
+    position: relative;
+    max-width: 70%;
+    left: 15%;
+}
+ul {
+    position: relative;
+    left: 4%;
+}
+li {
+    display: ;
+    height: auto;
+    width: 50%;
+    padding: 0px;
+}
+img {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    padding: 21px;
+    left: 20%;
+}
+.email {
+    position: relative;
+    left: 24%;
+}
+.big-footer {
+    position: relative;
+    width: 98%
+}
+.big-footer h3 {
+    position: relative;
+    width: 98%;
+    left: 0%;
+}
+.big-footer {
+    position: relative;
+    width: 98%;
+}
+.copy {
+    position: relative;
+    color: orangered;
+    left: -2px;
+    top: -20px;
+    font-size: 1.2em;
+}
+}
+
+@media (min-width: 1025px) {
+.nav-container {
+    background-color: darkslategray;
+    opacity: 0.8;
+    border-radius: 5px;
+    position: fixed;
+    color: white;
+    left: 70%;
+    top: 41px;
+    font-size: 1.8em;
+    width: 500px;
+    height: auto;
+    display: flex;
+    letter-spacing: 1.0px;
+    z-index: 11;
+}
+a {
+    color: lightblue;
+    opacity: .8;
+    text-decoration: none;
+}
+.item-3 {
+    width: 25%;
+}
+header {
+    position: relative;
+    left: 20%;
+    width: 1005px
+}
+#main-section-container {
+    position: relative;
+    left: 28%;
+    max-width: 100%;
+    width: 40%;
+    /*        display: flex;*/
+}
+ul {
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 30%;
+    bottom: 26px;
+    left: 0%;
+    height: auto;
+}
+li {
+    position: relative;
+    display: block;
+}
+section {
+    position: relative;
+    top: 40px;
+    left: 4%;
+    border: 2px solid red;
+    width: 90%;
+}
+img {
+    position: relative;
+    width: 300px;
+    height: auto;
+    bottom: 25px;
+    left: 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+h2 {
+    position: relative;
+    text-align: center;
+    font-size: 0.9em;
+    font-family: bungee inline;
+    color: goldenrod;
+    border: 2px solid black;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: orangered;
+    border-radius: 5px;
+    padding: 5px;
+    left: 1%;
+    width: 315px;
+}
+div {
+    position: relative;
+    margin: 5px;
+    float: left;
+    width: 96%;
+    height: 319px;
+    left: 5%;
+}
+.desc {
+    position: relative;
+    bottom: 40px;
+    color: orangered;
+    font-family: Amaranth, monospace;
+    border: 2px solid white;
+    width: 74%;
+    left: 10%;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+    bottom: 36%;
+}
+.big-footer {
+    position: fixed;
+    top: 814px;
+    width: 98%;
+    height: 140px;
+}
+.big-footer h3 {
+    position: relative;
+    width: 98%;
+    left: 0%;
+    top: 0px;
+}
+ul .email {
+    position: relative;
+    left: 31%;
+    bottom: 19px;
+}
+.copy {
+    position: relative;
+    left: -7%;
+    top: 51px;
+}
+    
+    
