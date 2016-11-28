@@ -13,7 +13,8 @@ app.controller("infoSectionCtrl", function ($scope) {
         {
             headline: "Grand Circus: Theatre App ",
             description: "My team built a theatre reservation app.",
-            img:'img/projectScreenshots/gc/GroupMidtermProjectTheatre.png'
+            img:'img/projectScreenshots/gc/GroupMidtermProjectTheatre.png',
+            className:'grand-circus'
   }, 
       {
             headline: "Grand Circus: Bebop Mad libs ",
@@ -53,17 +54,20 @@ app.controller("infoSectionCtrl", function ($scope) {
           {
             headline: "CodePen Picked Projects: My First UI Remake ",
             description: "This was my first attempt at the Gameboy UI",
+              className:'code-pen',
             img:'img/projectScreenshots/codepen/gameBoyRemake.png'
   }, 
       {
             headline: "CodePen Picked Projects: Flex-box MPC ",
             description: "I used flexbox and js to make my first MPC.",
-            img:'img/projectScreenshots/codepen/flexBoxMPC.png'
+            img:'img/projectScreenshots/codepen/flexBoxMPC.png',
+          className:'code-pen'
   }, 
       {
             headline: "CodePen Picked Projects: Animated Profile Card ",
             description: "Fun project for beginners",
-            img:'img/projectScreenshots/codepen/animeProfileCard.png'
+            img:'img/projectScreenshots/codepen/animeProfileCard.png',
+          className:'code-pen'
   }, 
       {
             headline: "CodePen Picked Projects: Password Generator ",
@@ -83,7 +87,8 @@ app.controller("infoSectionCtrl", function ($scope) {
       {
             headline: "CodePen Picked Projects: CSS Scenery ",
             description: "Great way to practice CSS animations",
-            img:'img/projectScreenshots/codepen/animeScenery.png'
+            img:'img/projectScreenshots/codepen/animeScenery.png',
+            
   }, 
     
  ];

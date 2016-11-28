@@ -262,7 +262,7 @@ img {
 
 @media (min-width: 1025px) {
 .nav-container {
-    background-color: darkslategray;
+    background-color:#213350;
     opacity: 0.8;
     border-radius: 5px;
     position: fixed;
@@ -315,7 +315,7 @@ section {
     position: relative;
     top: 40px;
     left: 4%;
-    border: 2px solid red;
+    border: 2px solid transparent;
     width: 90%;
 }
 img {
@@ -343,6 +343,12 @@ h2 {
     left: 1%;
     width: 315px;
 }
+    .grand-circus h2{
+        color:red;
+    }
+    .code-pen h2{
+        color:green;
+    }
 div {
     position: relative;
     margin: 5px;
@@ -356,7 +362,7 @@ div {
     bottom: 40px;
     color: orangered;
     font-family: Amaranth, monospace;
-    border: 2px solid white;
+    border: 2px solid transparent;
     width: 74%;
     left: 10%;
 }
